@@ -1,0 +1,51 @@
+/* Reset beberapa default styling browser */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Mengatur tampilan header */
+header {
+    text-align: center;
+    background-color: #3498db;
+    padding: 20px;
+}
+
+.judul {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Mengatur tampilan gambar profil */
+.foto-profil {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #fff; /* Menambahkan border putih */
+    border-radius: 50%; /* Membuat gambar profil menjadi lingkaran */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    width: 120px; /* Lebar gambar profil */
+    height: 150px; /* Tinggi gambar profil */
+}
+
+/* Mengatur tampilan informasi profil */
+section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Mengatur tampilan latar belakang halaman */
+body {
+    background-image: url('background.jpg'); /* Ganti 'background.jpg' dengan URL background yang Anda inginkan */
+    background-size: cover;
+}
